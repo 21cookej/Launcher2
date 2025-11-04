@@ -24,25 +24,25 @@ function generateprofile(game) {
   let selectedGame = "";
   let running = false;
   if (!selectedGame1) {
-      fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json").then((response) => response.json()).then((data) => {
+      fetch("https://21cookej.github.io/Launcher/assets/json/base.json").then((response) => response.json()).then((data) => {
           selectedGame1 = JSON.stringify(data[0]); localStorage.setItem("basegame", selectedGame1);
       });
   };
   if (game === 1 && selectedGame1) {selectedGame = JSON.parse(selectedGame1);  running = true;}; 
   if (!selectedGame2) {
-      fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/modded.json").then((response) => response.json()).then((data) => {
+      fetch("https://21cookej.github.io/Launcher/assets/json/modded.json").then((response) => response.json()).then((data) => {
           selectedGame2 = JSON.stringify(data[0]); localStorage.setItem("moddedgame", selectedGame2);
       });
   };
   if (game === 2 && selectedGame2) {selectedGame = JSON.parse(selectedGame2);  running = true;}; 
   if (!selectedGame3) {
-      fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/assisted.json").then((response) => response.json()).then((data) => {
+      fetch("https://21cookej.github.io/Launcher/assets/json/assisted.json").then((response) => response.json()).then((data) => {
           selectedGame3 = JSON.stringify(data[0]); localStorage.setItem("assisted", selectedGame3);
       });
   };
   if (game === 3 && selectedGame3) {selectedGame = JSON.parse(selectedGame3);  running = true;};
   if (!selectedGame4) {
-      fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/builder.json").then((response) => response.json()).then((data) => {
+      fetch("https://21cookej.github.io/Launcher/assets/json/builder.json").then((response) => response.json()).then((data) => {
           selectedGame4 = JSON.stringify(data[0]); localStorage.setItem("builder", selectedGame4);
       });
   };
@@ -77,10 +77,10 @@ function generategames(path) {
               document.getElementById('gameversion').innerHTML = game.version;
               document.getElementById('gameicon').src = game.icon;
               document.getElementById('playbutton').href = game.link;
-              if (path === "https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json") {selectedGame1 = JSON.stringify(game); localStorage.setItem("basegame", selectedGame1)};
-              if (path === "https://21cookej.github.io/Cool-Website-Launcher/assets/json/modded.json") {selectedGame2 = JSON.stringify(game); localStorage.setItem("moddedgame", selectedGame2)};
-              if (path === "https://21cookej.github.io/Cool-Website-Launcher/assets/json/assisted.json") {selectedGame3 = JSON.stringify(game); localStorage.setItem("assisted", selectedGame3)};
-              if (path === "https://21cookej.github.io/Cool-Website-Launcher/assets/json/builder.json") {selectedGame4 = JSON.stringify(game); localStorage.setItem("builder", selectedGame4)};
+              if (path === "https://21cookej.github.io/Launcher/assets/json/base.json") {selectedGame1 = JSON.stringify(game); localStorage.setItem("basegame", selectedGame1)};
+              if (path === "https://21cookej.github.io/Launcher/assets/json/modded.json") {selectedGame2 = JSON.stringify(game); localStorage.setItem("moddedgame", selectedGame2)};
+              if (path === "https://21cookej.github.io/Launcher/assets/json/assisted.json") {selectedGame3 = JSON.stringify(game); localStorage.setItem("assisted", selectedGame3)};
+              if (path === "https://21cookej.github.io/Launcher/assets/json/builder.json") {selectedGame4 = JSON.stringify(game); localStorage.setItem("builder", selectedGame4)};
               dropdowntoggle();
           });
       
@@ -111,7 +111,7 @@ function generategames(path) {
 
 const mods = document.getElementById("modsbox");
 function generatemods() {
-  fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/mods.json").then((response) => response.json()).then((data) => {
+  fetch("https://21cookej.github.io/Launcher/assets/json/mods.json").then((response) => response.json()).then((data) => {
       data.forEach((mod) => {
           const modoption = document.createElement("div");
           modoption.className = "modoption";
@@ -166,7 +166,7 @@ function generateservers() {
   // Clear previous server options first
   servers.innerHTML = "";
 
-  fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/servers.json")
+  fetch("https://21cookej.github.io/Launcher/assets/json/servers.json")
       .then((response) => response.json())
       .then((data) => {
           data.forEach((server) => {
@@ -245,7 +245,7 @@ function generateskins() {
     // Clear previous skin options
     skins.innerHTML = "";
 
-    fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/skins.json")
+    fetch("https://21cookej.github.io/Launcher/assets/json/skins.json")
         .then((response) => response.json())
         .then((data) => {
             data.forEach((skin) => {
@@ -371,7 +371,7 @@ function generatelaunchers(path) {
 
 const faqs = document.getElementById("faqbox");
 function generatefaqs() {
-  fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/faqs.json").then((response) => response.json()).then((data) => {
+  fetch("https://21cookej.github.io/Launcher/assets/json/faqs.json").then((response) => response.json()).then((data) => {
       data.forEach((game) => {
           const faqoption = document.createElement("div");
           faqoption.className = "faqoption";
@@ -407,7 +407,7 @@ function generatefaqs() {
 const notes = document.getElementById("patchnotesbox");
 const notescreen = document.getElementById("notescreen");
 function generatenotes() {
-  fetch("https://21cookej.github.io/Cool-Website-Launcher/assets/json/patchnotes.json").then((response) => response.json()).then((data) => {
+  fetch("https://21cookej.github.io/Launcher/assets/json/patchnotes.json").then((response) => response.json()).then((data) => {
       data.forEach((note) => {
           const patchnote = document.createElement("div");
           patchnote.className = "patchnote";
@@ -486,15 +486,15 @@ function closenotescreen() {
 }
 
 // Game Edition Selected
-let launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json";
+let launcher = "https://21cookej.github.io/Launcher/assets/json/base.json";
 function webedition(){
-  launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/base.json";
   resetTabSelected();
   generateprofile(1);
   generategames(launcher);
   generatelaunchers(launcher);
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/web-edition.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/web-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/web-edition.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/web-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT WEB EDITION';
   document.getElementById('header2').style.display = 'none';
   document.getElementById('header7').style.display = 'none';
@@ -505,13 +505,13 @@ function webedition(){
   document.getElementById('gtabs2').classList.add('selected');
 }
 function moddededition(){
-  launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/modded.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/modded.json";
   resetTabSelected();
   generateprofile(2);
   generategames(launcher);
   generatelaunchers(launcher);
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/modded-edition.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/modded-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/modded-edition.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/modded-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT MODDED';
   document.getElementById('header7').style.display = 'none';
   document.getElementById('header8').style.display = 'none';
@@ -522,12 +522,12 @@ function moddededition(){
 }
 
 function serverTab(){
-  launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/server.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/server.json";
   resetTabSelected();
   generateprofile(2);
   generateservers();
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/server.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/server-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/server.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/server-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT SERVERS';
   document.getElementById('header1').style.display = 'none';
   document.getElementById('game-title').style.display = 'none';
@@ -547,13 +547,13 @@ function serverTab(){
   document.getElementById('gtabs8').classList.add('selected');
 }
 function eaglercontrols(){
-  launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/assisted.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/assisted.json";
   resetTabSelected();
   generateprofile(3);
   generategames(launcher);
   generatelaunchers(launcher);
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/controls-edition.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/controls-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/controls-edition.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/controls-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT MOBILE/CONTROLLER';
   document.getElementById('header2').style.display = 'none';
   document.getElementById('header7').style.display = 'none';
@@ -591,8 +591,8 @@ function settingsTab() {
   document.getElementById('gtabs6').classList.add('selected');
 
   // (optional) update background/title for Settings if you want
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/settings-bg.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/settings-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/settings-bg.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/settings-title.png';
   document.getElementById('gameedition').innerHTML = 'SETTINGS';
 }
 
@@ -621,19 +621,19 @@ function creditsTab() {
   document.getElementById('gtabs5').classList.add('selected');
 
   // (optional) update background/title for Settings if you want
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/credits-bg.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/credits-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/credits-bg.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/credits-title.png';
   document.getElementById('gameedition').innerHTML = 'CREDITS';
 }
 
 function eaglerbuilder(){
-  launcher = "https://21cookej.github.io/Cool-Website-Launcher/assets/json/builder.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/builder.json";
   resetTabSelected();
   generateprofile(4);
   generategames(launcher);
   generatelaunchers(launcher);
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Cool-Website-Launcher/assets/images/builder.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Cool-Website-Launcher/assets/images/builder-title.png';
+  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/builder.jpg)';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/builder-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERFORGE BUILDER';
   document.getElementById('header2').style.display = 'none';
   document.getElementById('header3').style.display = 'none';
@@ -1037,7 +1037,7 @@ if (userchosen === false && !localStorage.getItem("username")) {
 else {username.innerHTML = localStorage.getItem("username")}
 
 generateprofile(1);
-generategames("https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json");
+generategames("https://21cookej.github.io/Launcher/assets/json/base.json");
 generatefaqs();
-generatelaunchers("https://21cookej.github.io/Cool-Website-Launcher/assets/json/base.json");
+generatelaunchers("https://21cookej.github.io/Launcher/assets/json/base.json");
 console.clear();
