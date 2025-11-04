@@ -2,22 +2,22 @@
     {
        "title": "Mobile UI",
        "version": "1.8.8-v3.0.5b",
-       "icon": "https://minecraft-eaglercraft-launcher.vercel.app/assets/images/icons/dogos-mobile.png",
-       "link": "https://minecraft-eaglercraft-launcher.vercel.app/mc/1.8.8/?userscript=flameddogo99-eaglermobile.js",
+       "icon": "https://cool-launcher.vercel.app/assets/images/icons/dogos-mobile.png",
+       "link": "https://cool-launcher.vercel.app/mc/1.8.8/?userscript=flameddogo99-eaglermobile.js",
        "active": true
     },
     {
        "title": "Mobile UI",
        "version": "1.8.8-v1.40",
-       "icon": "https://minecraft-eaglercraft-launcher.vercel.app/assets/images/icons/reds-mobile.png",
-       "link": "https://minecraft-eaglercraft-launcher.vercel.app/mc/1.8.8/?userscript=irv77-eaglercraft-mobile.js",
+       "icon": "https://cool-launcher.vercel.app/assets/images/icons/reds-mobile.png",
+       "link": "https://cool-launcher.vercel.app/mc/1.8.8/?userscript=irv77-eaglercraft-mobile.js",
        "active": true
     },
     {
        "title": "Controller Support",
        "version": "1.8.8-v1.1",
-       "icon": "https://minecraft-eaglercraft-launcher.vercel.app/assets/images/icons/reds-controller.png",
-       "link": "https://minecraft-eaglercraft-launcher.vercel.app/mc/?userscript=irv77-eaglerconsole.js",
+       "icon": "https://cool-launcher.vercel.app/assets/images/icons/reds-controller.png",
+       "link": "https://cool-launcher.vercel.app/mc/?userscript=irv77-eaglerconsole.js",
        "active": true
     }
  ]
