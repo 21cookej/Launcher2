@@ -28,10 +28,17 @@
        "active": false
     },
     {
-       "title": "Eaglerforge(NEW)",
+       "title": "Eaglerforge(NEW) 1.8.8",
        "version": "1.8.8",
        "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglerforge.png",
        "link": "https://21cookej.github.io/eaglerforge",
+       "active": true
+    },
+    {
+       "title": "Eaglerforge(NEW) 1.12.2",
+       "version": "1.12.2",
+       "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglerforge.png",
+       "link": "https://21cookej.github.io/1.12-Eaglerforge",
        "active": true
     },
     {
