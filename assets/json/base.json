@@ -54,7 +54,7 @@
        "icon": "https://cool-launcher2.vercel.app/assets/images/mc-icons/sticky-piston.png",
        "link": "https://cool-launcher2.vercel.app/mc/b1.7.3/",
        "active": false
-    },
+    }, 
     {
        "title": "Eaglercraft Beta 1.4",
        "version": "b1.4_01-25w21b",
