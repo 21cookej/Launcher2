@@ -2,78 +2,78 @@
     {
        "title": "Astra Client",
        "version": "1.8.8-v1.5",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/astra-client.png",
-       "link": "https://cool-launcher.vercel.app/mc/astraclient/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/astra-client.png",
+       "link": "https://cool-launcher2.vercel.app/mc/astraclient/",
        "active": true
     },
     {
        "title": "Raft Client V4",
        "version": "1.8.8",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/raft-client.png",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/raft-client.png",
        "link": "https://21cookej.github.io/raftclient",
        "active": true
     },
     {
        "title": "Dragon X V4.0",
        "version": "1.8.8",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/dragonx.png",
-       "link": "https://cool-launcher.vercel.app/mc/dragonx/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/dragonx.png",
+       "link": "https://cool-launcher2.vercel.app/mc/dragonx/",
        "active": false
     },
     {
        "title": "Eaglercraft Hacked",
        "version": "1.8.8",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/hacked.png",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/hacked.png",
        "link": "https://21cookej.github.io/hacked",
        "active": false
     },
     {
        "title": "Eaglerforge(NEW) 1.8.8",
        "version": "1.8.8",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglerforge.png",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/eaglerforge.png",
        "link": "https://21cookej.github.io/eaglerforge",
        "active": true
     },
     {
        "title": "Eaglerforge(NEW) 1.12.2",
        "version": "1.12.2",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglerforge.png",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/eaglerforge.png",
        "link": "https://21cookej.github.io/1.12-Eaglerforge",
        "active": true
     },
     {
        "title": "Resent Client",
        "version": "1.8.8-v4.0.p4",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/resent-client.png",
-       "link": "https://cool-launcher.vercel.app/mc/resentclient/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/resent-client.png",
+       "link": "https://cool-launcher2.vercel.app/mc/resentclient/",
        "active": false
     },
     {
        "title": "Eaglercraft Bootmenu",
        "version": "1.8.8",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglercraft1.jpg",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/eaglercraft1.jpg",
        "link": "https://21cookej.github.io/bootmenu",
        "active": false
     },
     {
        "title": "Eaglerforge(OLD)",
        "version": "1.8.8-v1.3.2",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/eaglerforge.png",
-       "link": "https://cool-launcher.vercel.app/mc/eaglerforge/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/eaglerforge.png",
+       "link": "https://cool-launcher2.vercel.app/mc/eaglerforge/",
        "active": false
     },
     {
        "title": "Shadow Client",
        "version": "1.8.8-v4.5-u34",
-       "icon": "https://cool-launcher.vercel.app/assets/images/mc-icons/skull.png",
-       "link": "https://cool-launcher.vercel.app/mc/shadowclient/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/mc-icons/skull.png",
+       "link": "https://cool-launcher2.vercel.app/mc/shadowclient/",
        "active": false
     },
     {
        "title": "Starlike",
        "version": "1.8.8-v0.4.2",
-       "icon": "https://cool-launcher.vercel.app/assets/images/icons/starlike.png",
-       "link": "https://cool-launcher.vercel.app/mc/starlikeclient/",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/starlike.png",
+       "link": "https://cool-launcher2.vercel.app/mc/starlikeclient/",
        "active": true
     }
  ]
