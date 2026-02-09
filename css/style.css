@@ -317,7 +317,7 @@ hr {
     align-items: center;
     width: 21.5vw;
     height: 5vw;
-    background-image: url(https://cool-launcher.vercel.app/assets/images/play.png);
+    background-image: url(https://cool-launcher2.vercel.app/assets/images/play.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@ hr {
 
 .playButton:hover {
     cursor: pointer;
-    background-image: url(https://cool-launcher.vercel.app/assets/images/play-hover.png);
+    background-image: url(https://cool-launcher2.vercel.app/assets/images/play-hover.png);
     transform: scale(1.05);
 }
 
