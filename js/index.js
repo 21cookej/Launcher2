@@ -1,4 +1,4 @@
-// Not Added Feature
+// Not Added Feature 
 function errorNA(text) {
   clearTimeout()
   document.getElementById('errortext').innerHTML = "The " + text + " feature hasn't been made yet."
