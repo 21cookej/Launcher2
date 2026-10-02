@@ -7,6 +7,13 @@
        "active": true
     },
     {
+       "title": "Forge Port",
+       "version": "1.6.4",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/icons/forge.png",
+       "link": "https://cool-launcher2.vercel.app/mc/1.6.4-WASM-Forge/",
+       "active": true
+    },
+    {
        "title": "Raft Client V4",
        "version": "1.8.8",
        "icon": "https://cool-launcher2.vercel.app/assets/images/icons/raft-client.png",
