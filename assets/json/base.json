@@ -2,7 +2,7 @@
    {
        "title": "Latest release 26.2",
        "version": "26.2-WASM-u1",
-       "icon": "https://cool-launcher2.vercel.app/assets/images/sidebar/i-web.png",
+       "icon": "https://cool-launcher2.vercel.app/assets/images/mc-icons/grass-wasm.png",
        "link": "https://cool-launcher2.vercel.app/mc/26.2-WASM/",
        "active": true
     },
